@@ -1,0 +1,395 @@
+{
+    "users" : [
+        {
+            "user_name" : "HostUser",
+            "first_name" : "Test",
+            "last_name" : "User",
+            "password" : "Testing123!",
+            "email" : "test1@example.com",
+            "date_of_birth" : "2010-08-04",
+            "profile" : "Test profile!",
+            "picture" : "testing/test2.jpg"
+        },
+        {
+            "user_name" : "TestUser2",
+            "first_name" : "Test",
+            "last_name" : "User",
+            "password" : "Testing123!",
+            "email" : "test2@example.com",
+            "date_of_birth" : "2010-08-04",
+            "picture" : "testing/test3.jpg"
+        },
+        {
+            "user_name" : "TestUser3",
+            "first_name" : "Test",
+            "last_name" : "User",
+            "password" : "Testing123!",
+            "email" : "test3@example.com",
+            "date_of_birth" : "2010-08-04"
+        },
+        {
+            "user_name" : "User1",
+            "password" : "Testing123!",
+            "first_name" : "User",
+            "last_name" : "One",
+            "email" : "stephenmingle79@boranora.com",
+            "date_of_birth" : "2004-10-07"
+        },
+        {
+            "user_name" : "User2",
+            "password" : "Testing123!",
+            "first_name" : "User",
+            "last_name" : "Two",
+            "email" : "ottomozai@billings.systems",
+            "date_of_birth" : "2004-10-07"
+        },
+        {
+            "user_name" : "Demo",
+            "password" : "Testing123!",
+            "first_name" : "Demo",
+            "last_name" : "User",
+            "email" : "tomhb1331@gmail.com",
+            "date_of_birth" : "2001-01-01"
+        }
+    ],
+    "events" : [
+        {
+            "host" : "test1@example.com",
+            "id" : "event1",
+            "event_name" : "Pokemon GO event",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "High Street",
+                "unitNo" : "",
+                "postcode" : "2052",
+                "suburb" : "Kensington",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-09-01T11:00:00Z",
+            "end_date" : "2022-09-01T13:00:00Z",
+            "description" : "Come catch some Pokemon at this amazing community day event!",
+            "seating_details" : [
+                {
+                    "section" : "Trainers",
+                    "availability" : 20
+                }
+            ],
+            "categories" : ["Hobbies"],
+            "tags" : ["pikachu", "pokemon"],
+            "admins" : ["test2@example.com"],
+            "published" : true,
+            "picture" : "testing/pokemon.jpg"
+        },
+        {
+            "host" : "test1@example.com",
+            "id" : "event4",
+            "event_name" : "Foodie event",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "High Street",
+                "unitNo" : "",
+                "postcode" : "2052",
+                "suburb" : "Kensington",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-23T11:00:00Z",
+            "end_date" : "2022-12-23T13:00:00Z",
+            "description" : "We have lots of different types of food for you to enjoy!",
+            "seating_details" : [
+                {
+                    "section" : "No Seating Test Section",
+                    "availability" : 20,
+                    "ticket_price" : 5
+                },
+                {
+                    "section" : "Seated test section",
+                    "availability" : 10,
+                    "ticket_price" : 10,
+                    "has_seats" : true
+                }
+            ],
+            "categories" : ["Food", "Travel & Outdoor"],
+            "tags" : ["apples", "running"],
+            "admins" : ["test2@example.com"],
+            "published" : true,
+            "picture" : "testing/foodie.jpg"
+        },
+        {
+            "host" : "test1@example.com",
+            "id" : "event2",
+            "event_name" : "Business Event",
+            "location" : {
+                "street_no" : 235,
+                "street_name" : "Anzac Parade",
+                "unitNo" : "",
+                "postcode" : "2033",
+                "suburb" : "Kensington",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-11-17T09:30:00Z",
+            "end_date" : "2022-11-18T01:00:00Z",
+            "description" : "We will talk about business jk were just here to enjoy ourselves",
+            "seating_details" : [
+                {
+                    "section" : "Default Section",
+                    "availability" : 20,
+                    "ticket_price" : 100,
+                    "has_seats" : true
+                }
+            ],
+            "categories" : ["Food", "Business"],
+            "tags" : ["cookies", "money", "BS (Business School)", "technology"],
+            "admins" : ["test3@example.com"],
+            "published" : true,
+            "picture" : "testing/business.jpg",
+            "spotify_playlist" : "https://open.spotify.com/playlist/1oJO4qu7KeHV3B6gmutM29?si=eb7e8a2513334668"
+        },
+        {
+            "host" : "test2@example.com",
+            "id" : "event3",
+            "event_name" : "Politics event",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "Parliament Drive",
+                "unitNo" : "",
+                "postcode" : "2600",
+                "suburb" : "Canberra",
+                "state" : "ACT",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-11-29T14:00:00Z",
+            "end_date" : "2022-11-29T15:00:00Z",
+            "description" : "Your least favourite politicians will come to debate everything from Pokemon to the community",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : ["Education", "Free"],
+            "tags" : ["running", "test", "technology", "money"],
+            "admins" : [],
+            "published" : true,
+            "picture" : "testing/politics.jpg"
+        },
+        {
+            "host" : "test2@example.com",
+            "id" : "event5",
+            "event_name" : "Sports event",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "Parliament Drive",
+                "unitNo" : "",
+                "postcode" : "2600",
+                "suburb" : "Canberra",
+                "state" : "ACT",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-11T03:00:00Z",
+            "end_date" : "2022-12-11T04:00:00Z",
+            "description" : "Enjoy some sports with the boys",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : ["Sport & Fitness", "Free"],
+            "tags" : ["running", "test", "soccer", "basketball"],
+            "admins" : [],
+            "published" : true,
+            "picture" : "testing/sports.jpg"
+
+        },
+        {
+            "host" : "test2@example.com",
+            "id" : "event6",
+            "event_name" : "Music event",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "Parliament Drive",
+                "unitNo" : "",
+                "postcode" : "2600",
+                "suburb" : "Canberra",
+                "state" : "ACT",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-29T14:00:00Z",
+            "end_date" : "2022-12-29T15:00:00Z",
+            "description" : "Listen to some live music!",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : ["Music", "Free"],
+            "tags" : ["pop", "rock", "EDM", "apples"],
+            "admins" : [],
+            "published" : true,
+            "picture" : "testing/concert.jpg"
+        },
+        {
+            "host" : "test2@example.com",
+            "id" : "event7",
+            "event_name" : "Dylan's party",
+            "location" : {
+                "street_no" : 468,
+                "street_name" : "Pitt St",
+                "unitNo" : "",
+                "postcode" : "2000",
+                "suburb" : "Haymarket",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-25T03:00:00Z",
+            "end_date" : "2022-12-25T07:00:00Z",
+            "description" : "Dylan's amazing (terrible) party",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : ["Music", "Hobbies", "Education"],
+            "tags" : ["alcohol", "party"],
+            "admins" : [],
+            "published" : true,
+            "picture" : "testing/party.jpg"
+
+        },
+        {
+            "host" : "test2@example.com",
+            "id" : "event7",
+            "event_name" : "NYE party",
+            "location" : {
+                "street_no" : 468,
+                "street_name" : "Pitt St",
+                "unitNo" : "",
+                "postcode" : "2000",
+                "suburb" : "Haymarket",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-31T05:00:00Z",
+            "end_date" : "2022-12-31T07:00:00Z",
+            "description" : "Better than Dylan's party",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : ["Music", "Hobbies", "Education"],
+            "tags" : ["alcohol", "fun", "party"],
+            "admins" : [],
+            "published" : true,
+            "picture" : "testing/party.jpg"
+
+        }
+    ],
+    "tickets" : [
+        {
+            "user" : "test1@example.com",
+            "event" : "event1",
+            "ticket_datetime" : "2022-09-01T11:00:02Z",
+            "ticket_details" : [
+                {
+                    "section" : "Trainers",
+                    "quantity" : 2,
+                    "seat_numbers" : [3, 4]
+                }
+            ]
+        },
+        {
+            "user" : "test3@example.com",
+            "event" : "event1",
+            "ticket_datetime" : "2022-09-01T11:00:02Z",
+            "ticket_details" : [
+                {
+                    "section" : "Trainers",
+                    "quantity" : 1,
+                    "seat_numbers" : []
+                }
+            ]
+        },
+        {
+            "user" : "stephenmingle79@boranora.com",
+            "event" : "event3",
+            "ticket_datetime" : "2022-11-29T14:00:01Z",
+            "ticket_details" : [{
+                "section" : "TestSectionA",
+                "quantity" : 1,
+                "seat_numbers" : []
+            }],
+            "notif" : true
+        },
+        {
+            "user" : "ottomozai@billings.systems",
+            "event" : "event3",
+            "ticket_datetime" : "2022-11-29T14:00:01Z",
+            "ticket_details" : [{
+                "section" : "TestSectionA",
+                "quantity" : 1,
+                "seat_numbers" : []
+            }],
+            "notif" : false
+        },
+        {
+            "user" : "tomhb1331@gmail.com",
+            "event" : "event1",
+            "ticket_datetime" : "2022-09-01T11:00:02Z",
+            "ticket_details" : [
+                {
+                    "section" : "Trainers",
+                    "quantity" : 1,
+                    "seat_numbers" : []
+                }
+            ]
+        }
+    ],
+    "reviews" : [
+        {
+            "user" : "test3@example.com",
+            "event" : "event1",
+            "id" : "review1",
+            "title" : "Event sucks!!!",
+            "text" : "L + ratio + you fell off",
+            "rating" : 0.0
+        }
+    ],
+    "replies" : [
+        {
+            "user" : "test2@example.com",
+            "review" : "review1",
+            "id" : "reply1",
+            "reply" : "no u"
+        }
+    ],
+    "reacts" : [
+        {
+            "user" : "test1@example.com",
+            "comment" : "reply1",
+            "react_type" : "laugh"
+        }
+    ]
+}

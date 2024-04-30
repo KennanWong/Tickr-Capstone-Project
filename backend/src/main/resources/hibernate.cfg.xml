@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- MySQL driver-->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+        <!-- TODO: Update to real values-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/tickr</property>
+        <property name="connection.username">tickr</property>
+        <property name="connection.password">tickr-pw</property>
+
+        <property name="connection.pool_size">100</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <!-- TODO: remove and replace with our schema -->
+        <!-- <property name="hbm2ddl.auto">create</property> -->
+
+
+        <!-- Mappings -->
+        <mapping class="tickr.application.entities.AuthToken"/>
+        <mapping class="tickr.application.entities.Category"/>
+        <mapping class="tickr.application.entities.Comment"/>
+        <mapping class="tickr.application.entities.DocumentTerm"/>
+        <mapping class="tickr.application.entities.Event"/>
+        <!--<mapping class="tickr.application.entities.EventAdmin"/>-->
+        <mapping class="tickr.application.entities.Group"/>
+        <mapping class="tickr.application.entities.Location"/>
+        <mapping class="tickr.application.entities.PurchaseItem"/>
+        <mapping class="tickr.application.entities.Reaction"/>
+        <mapping class="tickr.application.entities.SeatingPlan"/>
+        <mapping class="tickr.application.entities.Tag"/>
+        <mapping class="tickr.application.entities.TfIdf"/>
+        <mapping class="tickr.application.entities.Ticket"/>
+        <mapping class="tickr.application.entities.TicketReservation"/>
+        <mapping class="tickr.application.entities.User"/>
+        <mapping class="tickr.application.entities.UserInteraction"/>
+        <mapping class="tickr.application.entities.ResetToken"/>
+        <mapping class="tickr.application.entities.Invitation"/>
+    </session-factory>
+</hibernate-configuration>

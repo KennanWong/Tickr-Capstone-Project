@@ -1,0 +1,36 @@
+Week 1
+- Met with group members and had a discussion about which project we wanted to choose
+
+Week 2 
+- Had our tutorial and discussed our novel functionalities with Dylan. 
+- We delegated our roles (backend/frontend)
+- Split up the work for our proposal
+
+Week 3 
+- Finished the business proposal - I was responsible for creating the SQL schema and writing up explanations for our functionalities. 
+
+Week 4 
+- Worked on event user stories, mainly backend. A bit of frontend was done for events. 
+- Create event, edit event, view event.
+
+Week 5 
+- Had our demo, went through the retro with our team.
+- Started working on site navigation tickets. 
+
+Week 6
+- Worked on ticket endpoints and updated seating details. 
+
+Week 7 
+- Worked site navigation endpoints, mostly get requests for the users event viewing
+
+Week 8
+- Demo, discussed retro with team.
+
+Week 9
+- Implemented group ticket holding functionality 
+- Fixed up bugs in preparation for demo
+
+Week 10 
+- Had our final demo. 
+- Fixed a few bugs
+- Worked on the report.

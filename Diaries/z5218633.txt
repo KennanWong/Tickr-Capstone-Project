@@ -1,0 +1,49 @@
+Week 1
+===
+I met the other group members, discussed potential projects and decided on the event management option. 
+I was assigned mainly backend. I researched Java backend frameworks for potential usage.
+
+Week 2
+===
+We decided together on the libraries and frameworks we are going to use. I started designing and implementing
+the backend architecture.
+
+Week 3
+===
+I finished implementing the backend architecture and worked on the tasks required for Sprint 1, mainly 
+user registration and login as well as event page viewing and integrating the email APIs.
+
+Week 4
+===
+We demoed our Sprint 1 for our tutor. We had a retrospective meeting, and decided on things to
+improve on. I started researching the Stripe card handling API.
+
+Week 5
+===
+I mainly worked on implemented ticket purchasing flow, including integration with the Stripe API.
+
+Week 6
+===
+My team decided to change the interface for ticket purchasing, so I updated my implementation of ticket
+purchasing to match. Additionally, I started work on additional search options.
+
+Week 7
+===
+This week, I finished work on search options, as well as implementing review and reply creation. Additionally,
+I implemented announcements and helped implement ticket viewing, as well as implementing deletion for all entities
+in the system. I also implemented a dummy data system for quickly providing data for the demos.
+
+Week 8
+===
+We had our Sprint 2 demo this week. It went fairly well, though some mistakes were made in the demo which caused us to needlessly lose marks. We had
+our retro as well, where we decided to focus on integration testing, starting earlier and communicating. We also designed the API for the next sprint.
+In terms of code, I mainly spent the week researching recommendations systems and starting to implement geocoding support
+
+Week 9
+===
+This week, I finished geocoding support as well as implementing the recommendation system and ticket refunding. I also augmented the dummy data system.
+
+Week 10
+===
+We had our final demo this week, which went fairly well. I spent the rest of the week working on refactoring and cleaning up code, as well as working
+on the report

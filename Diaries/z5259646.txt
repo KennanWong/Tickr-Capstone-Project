@@ -1,0 +1,60 @@
+Week 1
+Group formation and discussion on what group project we wanted to do. We decided on Event managements
+I was delegated scrum master for the team
+
+
+Week 2
+Met up during our weekly meeting with Dylan to discuss what was considered a novel functionality
+Unfortunately a marketplace already existed but thought of the idea for a group ticket holding system
+
+Our group also formed our key functionalities, split them into sprints and drafted up user stories. 
+
+I created the document for the business proposal including formating as well as splitting up sections based upon the rubric
+
+Week 3
+- Finished business proposal by the end of the week. Responsible for creating interface flow diagrams that covered all user stories
+- began coding the front end pages for log in and register
+- create the landing page for Tickr
+
+Week 4
+- Finished login and register pages
+- created view profile and edit profile screens
+- created create event and view event pages for Tickr
+
+Week 5
+- Worked on retrospective with team
+- updated create event page to enable seating arangements in sections
+- began working on initial pruchase ticket screens
+
+Week 6
+- finalise purchase ticket screens, including seat selection
+- implement functionality to view already selected seats in seat selector
+
+Week 7
+- Implement Upcoming Event viewing
+- Implement User Hosting viewing
+- Implement ability to view events hosted by user
+- Implement ability to view ticket tickets bough
+
+
+Week 8
+- Implement Upcoming Event viewing
+- Implement User Hosting viewing
+- Implement ability to view events hosted by user
+
+Week 9
+- Add functionality for all group tickets including
+  - Group ticket creation
+  - Invite members
+  - Accept invites
+  - Remove members
+  - Remove tickets
+- Reafactor events card to make it modular and more re-usable
+- Implemented search page fully with filters
+- Impelemented functionality to attach spotify playlists to events as well as view spotify playlists
+
+
+Week 10:
+- Clean up front end debugging text
+- Create functioanlity to view past events book and past events hosted on home page
+- Add button so users can view all events of a certain category on one scrolling apge

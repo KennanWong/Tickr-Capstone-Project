@@ -1,0 +1,174 @@
+{
+    "users" : [
+        {
+            "user_name" : "TestUser1",
+            "first_name" : "Test",
+            "last_name" : "User",
+            "password" : "Testing123!",
+            "email" : "test1@example.com",
+            "date_of_birth" : "2010-08-04",
+            "profile" : "Test profile!",
+            "picture" : "testing/test2.jpg"
+        },
+        {
+            "user_name" : "TestUser2",
+            "first_name" : "Test",
+            "last_name" : "User",
+            "password" : "Testing123!",
+            "email" : "test2@example.com",
+            "date_of_birth" : "2010-08-04",
+            "picture" : "testing/test3.jpg"
+        },
+        {
+            "user_name" : "TestUser3",
+            "first_name" : "Test",
+            "last_name" : "User",
+            "password" : "Testing123!",
+            "email" : "test3@example.com",
+            "date_of_birth" : "2010-08-04"
+        }
+    ],
+    "events" : [
+        {
+            "host" : "test1@example.com",
+            "id" : "event1",
+            "event_name" : "Test Event",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "High Street",
+                "unitNo" : "",
+                "postcode" : "2052",
+                "suburb" : "Kensington",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-09-01T11:00:00Z",
+            "end_date" : "2022-09-01T13:00:00Z",
+            "description" : "test description",
+            "seating_details" : [
+                {
+                    "section" : "TestSection",
+                    "availability" : 10
+                }
+            ],
+            "categories" : [],
+            "tags" : [],
+            "admins" : ["test2@example.com"],
+            "published" : true,
+            "picture" : "testing/test1.jpg"
+        },
+        {
+            "host" : "test1@example.com",
+            "id" : "event2",
+            "event_name" : "Test Event 2",
+            "location" : {
+                "street_no" : 235,
+                "street_name" : "Anzac Parade",
+                "unitNo" : "",
+                "postcode" : "2033",
+                "suburb" : "Kensington",
+                "state" : "NSW",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-21T11:00:00Z",
+            "end_date" : "2022-12-21T13:00:00Z",
+            "description" : "test description",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : [],
+            "tags" : [],
+            "admins" : ["test2@example.com"],
+            "published" : true,
+            "picture" : "testing/test1.jpg"
+        },
+        {
+            "host" : "test1@example.com",
+            "id" : "event3",
+            "event_name" : "Test Event 3",
+            "location" : {
+                "street_no" : 1,
+                "street_name" : "Parliament Drive",
+                "unitNo" : "",
+                "postcode" : "2600",
+                "suburb" : "Canberra",
+                "state" : "ACT",
+                "country" : "Australia",
+                "longitude" : "",
+                "latitude" : ""
+            },
+            "start_date" : "2022-12-21T11:00:00Z",
+            "end_date" : "2022-12-21T13:00:00Z",
+            "description" : "test description",
+            "seating_details" : [
+                {
+                    "section" : "TestSectionA",
+                    "availability" : 10
+                }
+            ],
+            "categories" : [],
+            "tags" : [],
+            "admins" : ["test2@example.com"],
+            "published" : true,
+            "picture" : "testing/test1.jpg"
+        }
+    ],
+    "tickets" : [
+        {
+            "user" : "test1@example.com",
+            "event" : "event1",
+            "ticket_datetime" : "2022-09-01T11:00:02Z",
+            "ticket_details" : [
+                {
+                    "section" : "TestSection",
+                    "quantity" : 2,
+                    "seat_numbers" : [3, 4]
+                }
+            ]
+        },
+        {
+            "user" : "test3@example.com",
+            "event" : "event1",
+            "ticket_datetime" : "2022-09-01T11:00:02Z",
+            "ticket_details" : [
+                {
+                    "section" : "TestSection",
+                    "quantity" : 1,
+                    "seat_numbers" : []
+                }
+            ]
+        }
+    ],
+    "reviews" : [
+        {
+            "user" : "test3@example.com",
+            "event" : "event1",
+            "id" : "review1",
+            "title" : "Event sucks!!!",
+            "text" : "L + ratio + you fell off",
+            "rating" : 0.0
+        }
+    ],
+    "replies" : [
+        {
+            "user" : "test2@example.com",
+            "review" : "review1",
+            "id" : "reply1",
+            "reply" : "no u"
+        }
+    ],
+    "reacts" : [
+        {
+            "user" : "test1@example.com",
+            "comment" : "reply1",
+            "react_type" : "laugh"
+        }
+    ]
+}

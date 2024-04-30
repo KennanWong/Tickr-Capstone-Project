@@ -1,0 +1,15 @@
+.idea
+.vscode
+
+.gradle
+#gradle
+#gradlew
+#gradlew.bat
+build
+bin
+
+jwt_key
+location_cache.csv
+!gradle/wrapper/*.jar
+public
+*.lock
